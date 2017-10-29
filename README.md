@@ -1,4 +1,4 @@
-# hubspot-fix-custom-target
+# Fix Hubspot custom action
 In the rare case you use Hubspot and use it to send data to a custom url. You need this fix
 
 The current implentation has changed to add an iframe to the build of the form. So you have to add $form.attr('target',''); to the onFormReady.
